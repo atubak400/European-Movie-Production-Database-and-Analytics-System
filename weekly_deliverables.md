@@ -22,7 +22,7 @@ Weekly Report Deliverables:
 * SQL query statements for data retrieval and analysis.
 * Discussion on the testing process for data retrieval.
 
-* ## Week 4: Data Insertion, Testing, and Finalization
+## Week 4: Data Insertion, Testing, and Finalization
 * Weekly Report Deliverables:
 * Overview of data insertion progress and sample data used for testing.
 * Implemented SQL statements for data update and deletion.
