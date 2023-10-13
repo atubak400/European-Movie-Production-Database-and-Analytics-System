@@ -1,13 +1,13 @@
 # European-Movie-Production-Database-and-Analytics-System
 
 ## Project Overview
-The research team has requested the development of a database to support a project focused on movie production companies.
+The research team has requested the ***development of a database*** to support a project ***focused on movie production companies***.
 
 ## Project Objective
-The objective of this project is to employ machine learning, neural networks, and other methodologies to extract pertinent information regarding the status of movie production companies in Europe, as well as the overall condition of this industry within a specific group of countries, including the United Kingdom.
+The objective of this project is to ***employ machine learning, neural networks, and other methodologies to extract pertinent information regarding the status of movie production companies in Europe, as well as the overall condition of this industry*** within a specific group of countries, including the United Kingdom.
 
 ## Client's Commission
-The research institute, whose identity will not be disclosed, has commissioned the development of a data analytics application as part of this project. Your responsibility lies in developing the central, server-side database that serves as the foundation for this application.
+The research institute, whose identity will not be disclosed, has commissioned the ***development of a data analytics application as part of this project***. Your responsibility lies in developing the central, server-side database that serves as the foundation for this application.
 
 ## Open Source Application
 It is important to note that the application is intended to be open source, thereby ensuring its accessibility to a wide range of users.
