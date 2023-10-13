@@ -5,7 +5,7 @@ It is a relational database management system that provides an integrated develo
 ## Design Your Database:
 Create your database schema in Microsoft Access. Define tables, fields, and establish relationships between tables based on your ERD.
 
-## ## Data Entry Forms:
+## Data Entry Forms:
 In Mirosoft Access, you can easily design data entry forms for each of your entities (e.g., Production Company, Employee, Film, etc.). Use the built-in form designer to create user-friendly forms for data input.
 
 ## Reports and Queries:
