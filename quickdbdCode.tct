@@ -1,0 +1,69 @@
+ProductionCompany
+-
+CompanyName PK string
+Address string
+ZIPCode string
+City string
+Nation string
+TypeOfOrganization string
+NumEmployees int
+NetValue decimal
+RegistrationDate date
+RegistrationOffice string
+RegistrationFee decimal
+
+Employee
+-
+EmployeeID PK int
+GivenName string
+Surname string
+MiddleName string
+DateOfBirth date
+CommencementDate date
+EmailAddress string
+CompanyName string FK >- ProductionCompany.CompanyName
+
+Film
+-
+MovieCode PK string
+Title string
+FirstReleaseYear int
+
+Grant
+-
+GrantTitle PK string
+FundingOrganization string
+MaxMonetaryValue decimal
+DeadlineForSubmission date
+
+Crew
+-
+Role string
+RoleDescription string
+Bonus decimal
+EmployeeID int FK >- Employee.EmployeeID
+MovieCode string FK >- Film.MovieCode
+
+Staff
+-
+Department string
+Building string
+MonthlyWage decimal
+WorkingHours string
+CompanyName string FK >- ProductionCompany.CompanyName
+
+GrantApplication
+-
+ApplicationDate date
+DesiredAmount decimal
+Outcome string
+GrantTitle string FK >- Grant.GrantTitle
+CompanyName string FK >- ProductionCompany.CompanyName
+
+ContactInformation
+-
+TelephoneNumber string
+TelephoneNumberDescription string
+NationalInsuranceNumber string
+PassportNumber string
+EmployeeID int FK >- Employee.EmployeeID
