@@ -82,24 +82,3 @@ CREATE TABLE ContactInformation (
     FOREIGN KEY (EmployeeID) REFERENCES Employee(EmployeeID)
 );
 
-ALTER TABLE `Employee` ADD CONSTRAINT `fk_Employee_CompanyName` FOREIGN KEY(`CompanyName`)
-REFERENCES `ProductionCompany` (`CompanyName`);
-
-ALTER TABLE `Crew` ADD CONSTRAINT `fk_Crew_EmployeeID` FOREIGN KEY(`EmployeeID`)
-REFERENCES `Employee` (`EmployeeID`);
-
-ALTER TABLE `Crew` ADD CONSTRAINT `fk_Crew_MovieCode` FOREIGN KEY(`MovieCode`)
-REFERENCES `Film` (`MovieCode`);
-
-ALTER TABLE `Staff` ADD CONSTRAINT `fk_Staff_CompanyName` FOREIGN KEY(`CompanyName`)
-REFERENCES `ProductionCompany` (`CompanyName`);
-
-ALTER TABLE `GrantApplication` ADD CONSTRAINT `fk_GrantApplication_GrantTitle` FOREIGN KEY(`GrantTitle`)
-REFERENCES `Grant` (`GrantTitle`);
-
-ALTER TABLE `GrantApplication` ADD CONSTRAINT `fk_GrantApplication_CompanyName` FOREIGN KEY(`CompanyName`)
-REFERENCES `ProductionCompany` (`CompanyName`);
-
-ALTER TABLE `ContactInformation` ADD CONSTRAINT `fk_ContactInformation_EmployeeID` FOREIGN KEY(`EmployeeID`)
-REFERENCES `Employee` (`EmployeeID`);
-
